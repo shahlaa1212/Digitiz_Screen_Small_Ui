@@ -38,6 +38,7 @@ class MyApp extends StatelessWidget {
                      width: 5,
                      color: Colors.white,
                    ),
+                   borderRadius: BorderRadius.all(Radius.circular(50)),
                  ),
                ),
                SizedBox(width: 25.0),
@@ -49,7 +50,8 @@ class MyApp extends StatelessWidget {
                      border: Border.all(
                      width: 5,
                      color: Colors.white,
-                   )
+                   ),
+                   borderRadius: BorderRadius.all(Radius.circular(50)),
                  ),
                ),
                SizedBox(
@@ -64,6 +66,7 @@ class MyApp extends StatelessWidget {
                        width: 5,
                        color: Colors.white,
                      ),
+                     borderRadius: BorderRadius.all(Radius.circular(50)),
                    ),
                ),
              ],
@@ -78,6 +81,7 @@ class MyApp extends StatelessWidget {
                  width: 5,
                  color: Colors.white,
                ),
+               borderRadius: BorderRadius.all(Radius.circular(50)),
              ),
            ),
            SizedBox(height: 40.0),
@@ -93,6 +97,7 @@ class MyApp extends StatelessWidget {
                      width: 5,
                      color: Colors.white,
                    ),
+                   borderRadius: BorderRadius.all(Radius.circular(50)),
                  ),
                  ),
                SizedBox(width: 30.0),
@@ -105,6 +110,7 @@ class MyApp extends StatelessWidget {
                      width: 5,
                      color: Colors.white,
                    ),
+                   borderRadius: BorderRadius.all(Radius.circular(50)),
                  ),
                ),
              ],
@@ -122,6 +128,7 @@ class MyApp extends StatelessWidget {
                        width: 5,
                        color: Colors.white,
                    ),
+                   borderRadius: BorderRadius.all(Radius.circular(50)),
                  ),
                ),
                SizedBox(width: 30.0),
@@ -133,7 +140,8 @@ class MyApp extends StatelessWidget {
                    border: Border.all(
                      width: 5,
                      color: Colors.white,
-                   )
+                   ),
+                   borderRadius: BorderRadius.all(Radius.circular(50)),
                  ),
                ),
              ],
