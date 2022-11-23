@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:screen_small_ui/widget/custom_container.dart';
 
 void main() => runApp(MyApp());
 
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
         child: Column(
          children: [
            Container(
-             margin: EdgeInsets.symmetric(vertical: 10.0,horizontal: 30.0),
+             margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 30.0),
              alignment: Alignment.topLeft,
              child: Text(
                  'Home',
@@ -29,121 +30,33 @@ class MyApp extends StatelessWidget {
            Row(
              mainAxisAlignment: MainAxisAlignment.center,
              children: [
-               Container(
-                 width: 95.0,
-                 height: 90.0,
-                 decoration: BoxDecoration(
-                   color: Colors.deepPurpleAccent,
-                   border: Border.all(
-                     width: 5,
-                     color: Colors.white,
-                   ),
-                   borderRadius: BorderRadius.all(Radius.circular(50)),
-                 ),
-               ),
+               customContainer(colors: Colors.deepPurpleAccent, width: 95.0, height: 90.0),
                SizedBox(width: 25.0),
-               Container(
-                   width: 95.0,
-                   height: 90.0,
-                 decoration: BoxDecoration(
-                     color: Colors.deepPurpleAccent,
-                     border: Border.all(
-                     width: 5,
-                     color: Colors.white,
-                   ),
-                   borderRadius: BorderRadius.all(Radius.circular(50)),
-                 ),
-               ),
+               customContainer(colors: Colors.deepPurpleAccent, width: 95.0, height: 90.0),
                SizedBox(
                  width: 25.0,
                ),
-               Container(
-                   width: 95.0,
-                   height: 90.0,
-                   decoration: BoxDecoration(
-                       color: Colors.deepPurpleAccent,
-                       border: Border.all(
-                       width: 5,
-                       color: Colors.white,
-                     ),
-                     borderRadius: BorderRadius.all(Radius.circular(50)),
-                   ),
-               ),
+               customContainer(colors: Colors.deepPurpleAccent, width: 95.0, height: 90.0),
              ],
            ),
            SizedBox(height: 40.0),
-           Container(
-             width: 330.0,
-             height: 150.0,
-             decoration: BoxDecoration(
-               color: Colors.blue,
-               border: Border.all(
-                 width: 5,
-                 color: Colors.white,
-               ),
-               borderRadius: BorderRadius.all(Radius.circular(50)),
-             ),
-           ),
+          customContainer(colors: Colors.blue, width: 330.0, height: 150.0),
            SizedBox(height: 40.0),
            Row(
              mainAxisAlignment: MainAxisAlignment.center,
              children: [
-               Container(
-                 width: 150.0,
-                 height: 120.0,
-                 decoration: BoxDecoration(
-                   color: Colors.red,
-                   border: Border.all(
-                     width: 5,
-                     color: Colors.white,
-                   ),
-                   borderRadius: BorderRadius.all(Radius.circular(50)),
-                 ),
-                 ),
+               customContainer(colors: Colors.red, width: 150.0, height: 120.0),
                SizedBox(width: 30.0),
-               Container(
-                 width: 150.0,
-                 height: 120.0,
-                 decoration: BoxDecoration(
-                   color: Colors.red,
-                   border: Border.all(
-                     width: 5,
-                     color: Colors.white,
-                   ),
-                   borderRadius: BorderRadius.all(Radius.circular(50)),
-                 ),
-               ),
+               customContainer(colors: Colors.red, width: 150.0, height: 120.0),
              ],
             ),
            SizedBox(height: 30.0),
            Row(
              mainAxisAlignment: MainAxisAlignment.center,
              children: [
-               Container(
-                 width: 150.0,
-                 height: 120.0,
-                 decoration: BoxDecoration(
-                 color: Colors.red,
-                 border: Border.all(
-                       width: 5,
-                       color: Colors.white,
-                   ),
-                   borderRadius: BorderRadius.all(Radius.circular(50)),
-                 ),
-               ),
+               customContainer(colors: Colors.red, width: 150.0, height: 120.0),
                SizedBox(width: 30.0),
-               Container(
-                 width: 150.0,
-                 height: 120.0,
-                 decoration: BoxDecoration(
-                   color: Colors.red,
-                   border: Border.all(
-                     width: 5,
-                     color: Colors.white,
-                   ),
-                   borderRadius: BorderRadius.all(Radius.circular(50)),
-                 ),
-               ),
+               customContainer(colors: Colors.red, width: 150.0, height: 120.0),
              ],
            ),
          ],
@@ -151,6 +64,5 @@ class MyApp extends StatelessWidget {
       ),
     ),
   );
-
 }
 
